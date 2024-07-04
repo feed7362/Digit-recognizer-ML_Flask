@@ -1,54 +1,86 @@
+canvas {
+  background-color: black;
+  border:5px solid grey;
+}
+.drawing-box {
+  width: 400px;
+  height: 300px;
+  overflow: visible; /* Ensure drawing stays within the box */
+  margin-left: 200px;
+
+}
 /* Ripple effect */
 .ripple {
-    background-position: center;
-    transition: background 0.8s;
-  }
-  /* .ripple:hover {
-    
-  } */
-  .ripple:active {
-    background: #25282b radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
-    /* background-color: #6eb9f7; */
-    background-size: 100%;
-    transition: background 0s;
-  }
-  
-  /* Button style */
-  button {
-    border: none;
-    border-radius: 2px;
-    padding: 12px 18px;
-    font-size: 16px;
-    text-transform: uppercase;
-    cursor: pointer;
-    color: white;
-    background-color: #2196f3;
-    box-shadow: 0 0 4px #999;
-    outline: none;
-  }
-  
-  /* Span style */
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:active {
+  background: #25282b radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  /* background-color: #6eb9f7; */
+  background-size: 100%;
+  transition: background 0s;
+}
+
 #text {
-    color: #4DAF74;
+  color: orange;
+}
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  margin-left: 200px;
 }
 
-/* Canvas style */
-#can {
-    margin-top: 10;
-    border:5px solid;
+/* * {border: 1px solid red;} debuging*/
+html, body {
+  height: 99%;
+  width: 99%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#image-container {
+  position: absolute; 
+  width: 400px; 
+  height: 300px; 
+  bottom: 310px;
+  left: 625px;
+}
+#image-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
 }
 
-/* canvasimage style */
-#canvasimg{
-    position:absolute;
-    display:none;
+#image-text{
+position: relative;
+bottom: 475px;
+left: 650px;
+width: 210px;
+height: 30px;
 }
-
-body{
-    font-family: sans-serif;
+#title-text{
+position: relative;
+left: 10px;
+width: 197px;
+height: 37px;
 }
-
-#side{
-  float: left;
-  padding-left:15%;
+#predictionResult{
+  position: relative;
+  left: 10px;
+  width: 170px;
+  height: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-transform:capitalize;
+  text-shadow: 0 0 0px #999;
 }
