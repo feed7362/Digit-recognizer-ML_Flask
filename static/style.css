@@ -49,9 +49,9 @@ html, body {
 }
 #image-container {
   position: absolute; 
-  width: 400px; 
-  height: 300px; 
-  bottom: 310px;
+  width: 500px; 
+  height: 400px; 
+  bottom: 220px;
   left: 625px;
 }
 #image-container img {

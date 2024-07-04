@@ -1,0 +1,28 @@
+2024-07-04 19:15:24,724 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-07-04 19:15:24,724 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-04 19:15:41,324 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:41] "GET / HTTP/1.1" 200 -
+2024-07-04 19:15:41,725 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:41] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-04 19:15:45,784 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:45] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:15:50,413 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:50] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:15:54,988 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:54] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:15:59,925 - INFO - 127.0.0.1 - - [04/Jul/2024 19:15:59] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:16:04,245 - INFO - 127.0.0.1 - - [04/Jul/2024 19:16:04] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:20:24,843 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-07-04 19:20:24,843 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-04 19:20:30,377 - INFO - 127.0.0.1 - - [04/Jul/2024 19:20:30] "GET / HTTP/1.1" 200 -
+2024-07-04 19:20:30,553 - INFO - 127.0.0.1 - - [04/Jul/2024 19:20:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-04 19:20:34,549 - INFO - 127.0.0.1 - - [04/Jul/2024 19:20:34] "POST /process HTTP/1.1" 200 -
+2024-07-04 19:21:55,583 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-07-04 19:21:55,583 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-04 19:21:58,182 - INFO - 127.0.0.1 - - [04/Jul/2024 19:21:58] "GET / HTTP/1.1" 200 -
+2024-07-04 19:21:58,402 - INFO - 127.0.0.1 - - [04/Jul/2024 19:21:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-04 19:22:19,960 - INFO - 127.0.0.1 - - [04/Jul/2024 19:22:19] "POST /process HTTP/1.1" 200 -
