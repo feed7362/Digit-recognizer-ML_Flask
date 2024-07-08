@@ -37,3 +37,35 @@
 2024-07-04 19:28:46,277 - INFO - 127.0.0.1 - - [04/Jul/2024 19:28:46] "GET / HTTP/1.1" 200 -
 2024-07-04 19:28:46,454 - INFO - 127.0.0.1 - - [04/Jul/2024 19:28:46] "GET /static/style.css HTTP/1.1" 200 -
 2024-07-04 19:28:49,815 - INFO - 127.0.0.1 - - [04/Jul/2024 19:28:49] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:19,824 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-07-08 12:43:19,918 - WARNING - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-07-08 12:43:20,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-07-08 12:43:20,008 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-08 12:43:25,338 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:25] "GET / HTTP/1.1" 200 -
+2024-07-08 12:43:25,695 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:25] "GET /static/style.css HTTP/1.1" 200 -
+2024-07-08 12:43:25,771 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-08 12:43:29,289 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:29] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:34,223 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:34] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:37,051 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:37] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:39,185 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:39] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:42,608 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:42] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:46,119 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:46] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:48,827 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:48] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:50,508 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:50] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:52,552 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:52] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:43:53,610 - INFO - 127.0.0.1 - - [08/Jul/2024 12:43:53] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:01,522 - INFO - 127.0.0.1 - - [08/Jul/2024 12:44:01] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:05,821 - INFO - 127.0.0.1 - - [08/Jul/2024 12:44:05] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:08,766 - INFO - 127.0.0.1 - - [08/Jul/2024 12:44:08] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:10,999 - INFO - 127.0.0.1 - - [08/Jul/2024 12:44:10] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:14,890 - INFO - 127.0.0.1 - - [08/Jul/2024 12:44:14] "POST /process HTTP/1.1" 200 -
+2024-07-08 12:44:23,100 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-07-08 12:44:23,109 - WARNING - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2024-07-08 12:44:23,122 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-07-08 12:44:23,122 - INFO - [33mPress CTRL+C to quit[0m
